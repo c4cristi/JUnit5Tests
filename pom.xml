@@ -28,4 +28,17 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.1</version>
+                <configuration>
+                    <groups>Math | !Geometry</groups>
+                    <!--excludedGroups>integration, regression</excludedGroups-->
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
