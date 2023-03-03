@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Test Math" type="JUnit" factoryName="JUnit">
+    <module name="junit-5-basics" />
+    <option name="PACKAGE_NAME" value="com.codemonkey.tdd.junit5" />
+    <option name="MAIN_CLASS_NAME" value="com.codemonkey.tdd.junit5.MathUtilsTest" />
+    <option name="METHOD_NAME" value="" />
+    <option name="TEST_OBJECT" value="tags" />
+    <tag value="Math" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
